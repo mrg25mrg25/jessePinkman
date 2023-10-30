@@ -1,14 +1,18 @@
 
 import React from 'react'
 
-const nav_ds = () => {
+import Osho from "./osho"
+const page = () => {
+
 
 
   return (
     <div>
-    ok
+
+   <Osho/>
+
     </div>
   )
 }
 
-export default nav_ds
+export default page
