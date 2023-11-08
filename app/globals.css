@@ -5,3 +5,16 @@
 label input:checked~.btns{
   border: 2px solid red;
 }
+
+
+
+
+.active{
+  border: 6px solid blue;
+}
+
+
+
+
+
+
