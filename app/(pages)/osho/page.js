@@ -1,23 +1,11 @@
-"use client"
-
-import { useState } from 'react'
 import React from 'react'
 
-
-
-const todo = () => {
-  const [show,setShow] = useState(true)
+const page = () => {
   return (
     <div>
-     <h1>conditional rendering </h1>
-     {
-      show ? <h2>you are Goddamn right</h2>
-      : <p>mujh pagal ki bat mano</p>
-     }
-     <br /><br />
-     <button onClick={()=>setShow(!show)} >onClick</button>
+        hi i am osho
     </div>
   )
 }
 
-export default todo
+export default page
