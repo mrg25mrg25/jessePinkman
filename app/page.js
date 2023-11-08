@@ -1,18 +1,11 @@
+import Osho from "./(pages)/osho/page"
 
-import React from 'react'
-
-import Osho from "./osho"
-const page = () => {
-
-
-
-  return (
-    <div>
-
-   <Osho/>
-
-    </div>
-  )
+export default async function osho(){
+return(
+  <>
+  samajdari chorne mein bara muskil hotaa hain
+  <p>jis pai mera sammohon cal geeya ffer uspai kkisi ka samohon nahi calta</p>
+  <Osho/>
+  </>
+)
 }
-
-export default page

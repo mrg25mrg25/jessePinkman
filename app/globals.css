@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.active{
-    color: green;
+label input:checked~.btns{
+  border: 2px solid red;
 }
