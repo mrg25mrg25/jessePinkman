@@ -1,9 +1,28 @@
-import React from 'react'
 
-const page = () => {
-  return (
-    <div>page</div>
-  )
+
+function udemy (props){
+  const { products } = props;
+return (
+<ul>
+{products.map((product) => (
+         <li key={product.id}> {product.title} </li>
+      ))}
+</ul>
+)
+
 }
 
-export default page
+export async function getStaticProps() {
+return { 
+props: {
+ products: [{id:'p1',title:'product 1'}],
+},
+};
+}
+
+
+
+
+
+export default udemy;
+
