@@ -1,10 +1,9 @@
-import Osho from "./(pages)/osho/page"
+import React from 'react'
 
-export default async function osho(){
-return(
-  <>
- lemme see it first
- <Osho/>
-  </>
-)
+const page = () => {
+  return (
+    <div>page</div>
+  )
 }
+
+export default page
